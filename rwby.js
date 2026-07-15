@@ -3997,7 +3997,7 @@ function checkWelcome() {
   overlay.className = 'welcome-overlay';
   overlay.innerHTML = `
     <div class="welcome-inner">
-      <div class="welcome-logo">RWBY DnD</div>
+      <div class="welcome-logo">I can do anything OwO</div>
       <div class="welcome-sub">Homebrew · Remnant</div>
       <h2 class="welcome-title">Who are you?</h2>
       <p class="welcome-text">Testing testing 123</p>
