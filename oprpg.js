@@ -1,7 +1,7 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-app.js";
 import { getFirestore, doc, collection, getDoc, getDocs, onSnapshot, setDoc, deleteDoc } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-firestore.js";
 
-const FBConf = {
+const FB_CONFIG = {
   apiKey: "AIzaSyBJF3ic2GM_9HADwQGpvX_m__lqw31SzZE",
   authDomain: "oprpg-bf152.firebaseapp.com",
   projectId: "oprpg-bf152",
@@ -11,9 +11,9 @@ const FBConf = {
 };
 
 // Initialize Firebase
-const app = initializeApp(FBConf);
+const fbapp = initializeApp(FB_CONFIG, 'One Piece RPG Pao');
 const db = getFirestore(app);
-
+const DOC = 'one-piece-campaign'
 
 // CONSTANTS
 
