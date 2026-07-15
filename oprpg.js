@@ -3104,7 +3104,7 @@ function scheduleInvPush() { clearTimeout(_invPushTimer); _invPushTimer = setTim
 // ================================================================
 // SHOP / CURRENCY  (RWBY uses Lien — DM-controlled)
 // ================================================================
-const CURRENCY = { name:'Lien', symbol:'₥', short:'Lien' };
+const CURRENCY = { name:'Beli', symbol:'ᶀ', short:'Beli' };
 function seedShopIfEmpty(force){
   const cat = window.RWBY_DEFAULT_SHOP;
   if (!Array.isArray(cat) || !cat.length) return false;
