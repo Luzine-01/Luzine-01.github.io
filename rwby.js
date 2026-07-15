@@ -1,3 +1,9 @@
+// ============================================================
+// RWBY DnD — rwby.js
+// Full auto-calculations: proficiency, skills, saves, initiative,
+// passive perception, attack bonuses, Uncanny Dodge
+// Firebase Firestore sync — no import/export needed
+// ============================================================
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-app.js";
 import { getFirestore, doc, collection, getDoc, getDocs, onSnapshot, setDoc, deleteDoc } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-firestore.js";
 
