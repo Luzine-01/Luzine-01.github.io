@@ -32,3 +32,4 @@
 }
 .sidebar-section{padding:.7rem;border-radius:var(--rs);border:1px solid rgba(255,255,255,.04);background:rgba(0,210,255,.012)}
 .sidebar-buttons{display:flex;flex-direction:column;gap:.38rem}
+.app{position:relative;z-index:1;min-height:100vh;display:grid;grid-template-columns:230px 1fr}
