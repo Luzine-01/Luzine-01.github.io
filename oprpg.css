@@ -3,7 +3,7 @@
   --panel:     rgba(8,5,16,.97);
   --line:      rgba(255,255,255,.05);
   --line-c:    rgba(0,210,255,.18);
-  --text:      #c4d8f4;
+  --text:      #f4c4c4;
   --muted:     #485870;
   --accent:    #c0000a;
   --accent2:   #3a0008;
@@ -13,7 +13,7 @@
   --safe:      #00e890;
   --warn:      #ff9900;
   --danger:    #ff1a2e;
-  --r: 50px; --rs: 9px;
+  --r: 14px; --rs: 9px;
   --F1:'Orbitron',sans-serif;
   --F2:'Share Tech Mono',monospace;
   --F3:'Exo 2',sans-serif;
@@ -24,8 +24,8 @@ html,body{min-height:100%;color:var(--text);font-family:var(--F3);font-size:15px
 body{
   overflow-x:hidden;
   background:
-    radial-gradient(ellipse 80% 60% at 0% 0%,   rgba(140,0,8,.28),  transparent),
-    radial-gradient(ellipse 60% 60% at 100% 100%, rgba(0,20,50,.5),   transparent),
+    radial-gradient(ellipse 80% 60% at 0% 0%,   rgba(19, 233, 66, 0.28),  transparent),
+    radial-gradient(ellipse 60% 60% at 100% 100%, rgba(87, 150, 245, 0.5),   transparent),
     #020106;
 }
 
