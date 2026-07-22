@@ -17,7 +17,7 @@ border box margin 0 and padding 0. Bob was cooking here ngl */
 .sidebar{
   display:flex;flex-direction:column;gap:.75rem;
   padding:1rem .9rem;
-  background:rgba(14, 11, 0, 0.99);
+  background:rgba(14, 11, 0, 0.329);
   border-right:1px solid rgba(222, 255, 77, 0.726);
   position:sticky;top:0;height:100vh;
   overflow-y:auto;scrollbar-width:thin;scrollbar-color:rgba(194, 176, 20, 0.671) transparent;
